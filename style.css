@@ -191,3 +191,38 @@ a {
   line-height: 19px;
   color: #F16D7F;
 }
+
+@media (max-width: 1024px) {
+h1 {
+  font-size: 24px;
+}
+}
+  
+@media (max-width: 767px) {
+h1 {
+  font-size: 18px;
+}
+}
+
+@media (min-width: 768px) {
+  body {
+  padding: 32px;
+  }
+}
+
+@media (max-width: 1024px) and 
+(min-width: 768px) {
+  h1,
+  .promo__title {
+    text-decoration: underline;
+    font-size: 44px;
+    line-height: 53px;
+  }
+}
+
+@media (max-width: 1024px) and 
+(min-width: 768px) {
+.product-box__content {
+  gap: 14px;
+}
+}
