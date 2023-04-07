@@ -42,7 +42,7 @@ productData.forEach(elem => {
 });
 
 const productAncor = document.createElement('a');
-productAncor.classList.add('product__ancor');
+productAncor.classList.add('button');
 productAncor.href = '#';
-productAncor.textContent = 'Browse All Product';
+productAncor.textContent = '';
 document.querySelector('.product-box__content').appendChild(productAncor);
